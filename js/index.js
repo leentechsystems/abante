@@ -51,7 +51,8 @@ function onOnline() {
     $("#sub_message").addClass('hide');
     //var ref;
     setTimeout(function(){
-             $.mobile.changePage('/www/slider.html');
+             $(location).attr('href','www/slider.html');
+             //$.mobile.changePage('/www/slider.html');
              //super.loadUrl("file:///android_asset/www/index.html");
              //var ref = window.open('www/slider.html', '_blank', 'location=no');
              //ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
