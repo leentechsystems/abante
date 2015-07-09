@@ -49,15 +49,15 @@ function onOnline() {
     $("#message").addClass('hide');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
-    var ref;
+    //var ref;
     setTimeout(function(){
-             ref = window.location('www/slider.html', '_blank', 'location=no');
+             var ref = window.location('www/slider.html', '_blank', 'location=no');
              ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
              
       }, 3000);
-    $(window).on('focus', function() {
-               ref.show();
-             });
+    //$(window).on('focus', function() {
+               //ref.show();
+             //});
 }
 
 
