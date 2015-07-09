@@ -52,6 +52,9 @@ function onOnline() {
     setTimeout(function(){
              var ref = window.open('www/slider.html', '_blank', 'location=no');
              ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
+             $(window).on('focus', function() {
+               ref.show();
+             });
       }, 3000);
 }
 
