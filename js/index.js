@@ -51,7 +51,7 @@ function onOnline() {
     $("#sub_message").addClass('hide');
     //var ref;
     setTimeout(function(){
-             var ref = window.location('www/slider.html', '_blank', 'location=no');
+             var ref = window.open('www/slider.html', '_blank', 'location=no');
              ref.addEventListener('loaderror', function(event) { ref.close(); location.reload(); });
              
       }, 3000);
