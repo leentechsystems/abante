@@ -3820,3 +3820,10 @@ else if (typeof define === 'function' && define.amd) {
         return window.Swiper;
     });
 }
+
+document.addEventListener("backbutton", backKeyDown, true); 
+
+function backKeyDown() { 
+     // Call my back key code here.
+    //alert('go back!');
+}
