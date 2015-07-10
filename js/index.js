@@ -45,7 +45,8 @@ function onOnline() {
     $("body").removeClass('reload');
     $("#loader").removeClass('hide');
     $("#Loading").text('Loading...');
-    $("loadingProgressG").removeClass('hide');
+    $("loadingProgressG").removeClass('spinner2');
+    $("loadingProgressG").addClass('spinner');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
     //var ref;
