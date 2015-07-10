@@ -35,7 +35,8 @@ var app = {
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
         //var networkState = navigator.network.connection.type;
-        window.location = 'wwww/slider.html';
+        //window.location = 'wwww/slider.html';
+        $(location).attr('href','www/slider.html');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
