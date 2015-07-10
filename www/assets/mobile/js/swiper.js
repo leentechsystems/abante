@@ -3820,3 +3820,7 @@ else if (typeof define === 'function' && define.amd) {
         return window.Swiper;
     });
 }
+
+document.addEventListener('backbutton', function(){
+    navigator.app.exitApp();
+});

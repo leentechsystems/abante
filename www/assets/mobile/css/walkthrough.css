@@ -4,7 +4,7 @@ html, body {
 }
 body {
 	font-family: 'Roboto', sans-serif;
-    background: #942317;
+    background: #ffffff;
     font-size: 14px;
     color: #fff;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 16px;
-    background: #f3402c;
+    background: #ffffff;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -37,12 +37,19 @@ body {
 .swiper-content {
 	padding: 30px 35px;
 	margin-top: -70px;
+	color: #939393;
+}
+.swiper-content-color {
+	color: #939393;
+}
+.swiper-content-header-color {
+	color: #222222;
 }
 .swiper-container-horizontal>.swiper-pagination {
 	bottom: 32px;
 }
 .swiper-pagination-bullet-active {
-	background: #b21200;
+	background: #797979;
 }
 .swiper-pagination-bullet {
 	width: 12px;
@@ -61,8 +68,8 @@ body {
 }
 .swiper-content button {
 	background: transparent;
-	color: #fff;
-	border: 1px solid #fff;
+	color: #f3402c;
+	border: 2px solid #f3402c;
 	padding: 10px 40px;
 	font-size: 18px;
 	border-radius: 3px;
@@ -72,10 +79,10 @@ body {
 .swiper-content .swiper-skip {
 	margin-top: 15px;
 	display: block;
-	color: #b21200;
+	color: #959595;
 	font-size: 14px;
 	line-height: 20px;
 }
 .swiper-content .swiper-skip a {
-	color: #b21200;
+	color: #959595;
 }
