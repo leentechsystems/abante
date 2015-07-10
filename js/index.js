@@ -36,18 +36,16 @@ function onOffline() {
     // alert('No Internet Connection!');
     $("body").addClass('reload');
     $("#loader").addClass('hide');
-    $("#message").removeClass('hide');
     $("#main_message").text('No Internet Connection');
-    $("#sub_message").text('Tap to Retry');
-    $("#main_message").removeClass('hide');
-    $("#sub_message").removeClass('hide');
+    $("#Loading").text('Press Back Key to Exit or Tap to Retry');
+
 }
 
 function onOnline() {
     $("body").removeClass('reload');
     $("#loader").removeClass('hide');
-    $("#Loading").text('Press Back Key to Exit');
-    $("loadingProgressG").addClass('hide');
+    $("#Loading").text('Loading...');
+    $("loadingProgressG").removeClass('hide');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
     //var ref;
