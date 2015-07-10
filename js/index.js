@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
         //var networkState = navigator.network.connection.type;
-        window.location = 'abante.com.ph/mobile';
+        window.location = 'http://abante.com.ph/mobile';
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
