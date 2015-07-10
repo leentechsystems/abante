@@ -46,7 +46,8 @@ function onOffline() {
 function onOnline() {
     $("body").removeClass('reload');
     $("#loader").removeClass('hide');
-    $("#message").addClass('hide');
+    $("#Loading").text('Press Back Key to Exit');
+    $("loadingProgressG").addClass('hide');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
     //var ref;
