@@ -38,15 +38,13 @@ function onOffline() {
     $("#loader").addClass('hide');
     $("#main_message").text('No Internet Connection');
     $("#Loading").text('Press Back Key to Exit or Tap to Retry');
-
+    $("loadingProgressG").addClass('hide');
 }
 
 function onOnline() {
     $("body").removeClass('reload');
     $("#loader").removeClass('hide');
     $("#Loading").text('Loading...');
-    $("loadingProgressG").removeClass('spinner2');
-    $("loadingProgressG").addClass('spinner');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
     //var ref;
