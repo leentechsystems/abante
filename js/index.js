@@ -47,6 +47,8 @@ function onOnline() {
     $("#Loading").text('Loading...');
     $("#main_message").addClass('hide');
     $("#sub_message").addClass('hide');
+    $("#loadingProgressG").removeClass('spinner2');
+    $("#loadingProgressG").addClass('spinner');
     //var ref;
     setTimeout(function(){
              $(location).attr('href','www/slider.html');
