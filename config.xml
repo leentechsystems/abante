@@ -41,6 +41,7 @@
     <preference name="Fullscreen" value="true" />
     <preference name="orientation" value="portrait" />
     <preference name="phonegap-version" value="3.6.3" />
+    <preference name="stay-in-webview"  value="true" />
 
     <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io" />
     <gap:plugin name="com.google.cordova.admob-facebook" source="plugins.cordova.io" />
