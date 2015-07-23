@@ -6,10 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
 <title></title>
 <script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+    <h1>Hello AdMob</h1>
+    <div>
+        
+    </div>
+</body>
 <script>
 var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) { 
-    admobid = { // for Android src="http://abante.com.ph/mobile?app=banana" 
+    admobid = { // for Android <iframe src="http://abante.com.ph/mobile?app=banana" style="width:100%; height:90%; z-index:-1">
         banner: 'ca-app-pub-6869992474017983/9375997553',
         interstitial: 'ca-app-pub-6869992474017983/9375997553'
     };
@@ -32,23 +39,12 @@ function initApp() {
             position : AdMob.AD_POSITION.BOTTOM_CENTER,
             offsetTopBar: false,
             autoShow : true
-            //bannerAtBottom: true, // set to true, to put banner at top
-            //overlap: true, // set to true, to allow banner overlap webview
-            offsetStatusBar: false, // set to true to avoid ios7 status bar overlap
-            //isTesting: true, // receiving test ads (do not test with real ads as your account will be banned)
-            autoShowBanner: true // auto show banners ad when loaded
-            // auto show interstitials ad when loaded
         });
     }
 }
 
 document.addEventListener('deviceready', initApp, false);
 </script>
-</head>
-<body>
-    <h1>Hello AdMob</h1>
-</body>
-
 </html>
 
 <!-- <!DOCTYPE html>
