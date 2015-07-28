@@ -51,7 +51,7 @@ function onOnline() {
     $("#sub_message").addClass('hide');
     //var ref;
     setTimeout(function(){
-             $(location).attr('href','www/slider.html');
+             $(location).attr('href','http://abante.com.ph/mobile/');
              //$.mobile.changePage('/www/slider.html');
              //super.loadUrl("file:///android_asset/www/index.html");
              //var ref = window.open('www/slider.html', '_blank', 'location=no');
